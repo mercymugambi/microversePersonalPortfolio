@@ -5,6 +5,11 @@
     font-family: poppins;
 }
 
+body
+{
+    background-color: #45567d;
+}
+
 li,
 a
 {
@@ -62,14 +67,64 @@ header
     justify-content: center;
     text-align: center;
 }
-.welcome-msg h2{
+
+.welcome-msg h2
+{
     font-size: 3.5em;
     color: white;
 }
+
 .welcome-msg p
 {
     font-size: 2.5em;
     color: #be3144;
     font-style: italic;
     font-weight: 300;
+}
+
+.container
+{
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+.container h2
+{
+    text-align: center;
+    margin: 1em 0;
+    font-size: 3em;
+    border-bottom: 1px solid white;
+    color: aliceblue;
+
+}
+
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+    margin: 0 2em;
+
+}
+.card{
+    margin: 0 1em;
+}
+
+.card-block
+{
+    background-color: #181719;
+    height: 50px;
+    padding: 0.5em 0;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card-block p
+{
+    color: white;
+    padding: 1.0em 0;
+    align-self: center;
 }
