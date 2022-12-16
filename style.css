@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color:#be3144;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 1em 1em;
+}
+
+
+.header-nav ul{
+    display: flex;
+}
+.header-nav ul li{
+    margin: 0 1em;
+    
+}
+.header-nav a
+{
+    padding: 0 1em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+.header-nav a:hover
+{
+    padding: 1.1em 1.0em;
+    background-color:#45567d;
+}
